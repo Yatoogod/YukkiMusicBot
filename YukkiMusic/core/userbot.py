@@ -31,7 +31,6 @@ class Userbot:
             if session_string:
                 self.clients.append(
                     Client(
-                        name="userbot",
                         session_string=session_string,
                         api_id=config.API_ID,
                         api_hash=config.API_HASH,
